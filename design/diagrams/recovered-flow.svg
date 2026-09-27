@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="t d">
+<title id="t">Recovered startup and movement flow · Mobile VR Interface</title>
+<desc id="d">Startup brings up the Native mobile XR interface or quits; each frame arrow keys slide the XR origin. godot/main.gd. IDs: M-01 M-02 M-03 · S-02 · F-01 F-02 F-04 F-05.</desc>
+<rect width="1200" height="660" fill="#faf9f5"/>
+<defs><marker id="a" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#25354a"/></marker><marker id="ar" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#d24e42"/></marker></defs>
+<g font-family="Helvetica, Arial, sans-serif">
+<text x="32" y="44" font-size="26" font-weight="700" fill="#25354a">Recovered startup and movement flow · Mobile VR Interface</text>
+<text x="32" y="68" font-size="14" fill="#5b6b7c">Startup brings up the Native mobile XR interface or quits; each frame arrow keys slide the XR origin. godot/main.gd.</text>
+<text x="32" y="88" font-size="13" fill="#5b6b7c">IDs: M-01 M-02 M-03 · S-02 · F-01 F-02 F-04 F-05</text>
+<rect x="40" y="120" width="230" height="80" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="155.0" y="149.0" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">launch</text>
+<text x="155.0" y="169.0" font-size="13" text-anchor="middle" fill="#5b6b7c">desktop: main.tscn</text>
+<text x="155.0" y="186.0" font-size="13" text-anchor="middle" fill="#5b6b7c">(project.godot:15)</text>
+<rect x="320" y="120" width="260" height="80" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="450.0" y="157.5" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">find &quot;Native mobile&quot;</text>
+<text x="450.0" y="177.5" font-size="13" text-anchor="middle" fill="#5b6b7c">initialize() (main.gd:7-8)</text>
+<rect x="640" y="120" width="250" height="80" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="765.0" y="149.0" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">XR viewport on</text>
+<text x="765.0" y="169.0" font-size="13" text-anchor="middle" fill="#5b6b7c">use_xr = true</text>
+<text x="765.0" y="186.0" font-size="13" text-anchor="middle" fill="#5b6b7c">vrs_mode = VRS_XR (M-01)</text>
+<path d="M270 160 L318 160" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<path d="M580 160 L638 160" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<text x="609.0" y="152.0" font-size="13" text-anchor="middle" fill="#5b6b7c">ok</text>
+<rect x="320" y="260" width="260" height="70" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="450.0" y="292.5" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">quit()</text>
+<text x="450.0" y="312.5" font-size="13" text-anchor="middle" fill="#5b6b7c">interface missing or init failed (F-04)</text>
+<path d="M450 202 L450 258" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<text x="475" y="235" font-size="13" text-anchor="middle" fill="#5b6b7c">fail</text>
+<rect x="640" y="260" width="250" height="90" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="765.0" y="294.0" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">per frame</text>
+<text x="765.0" y="314.0" font-size="13" text-anchor="middle" fill="#5b6b7c">ui_left/right/up/down</text>
+<text x="765.0" y="331.0" font-size="13" text-anchor="middle" fill="#5b6b7c">origin += basis * dir * delta</text>
+<path d="M765 202 L765 258" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="940" y="260" width="220" height="90" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="1050.0" y="294.0" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">1 unit/s per axis</text>
+<text x="1050.0" y="314.0" font-size="13" text-anchor="middle" fill="#5b6b7c">~0.2 per 200 ms hold</text>
+<text x="1050.0" y="331.0" font-size="13" text-anchor="middle" fill="#5b6b7c">(FRICTIONAL.md:19-20)</text>
+<path d="M890 305 L938 305" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="40" y="400" width="540" height="80" rx="10" fill="#fffdf7" stroke="#d24e42" stroke-width="2.5" stroke-dasharray="9 7"/>
+<text x="310.0" y="429.0" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">mobile launch: main_mobile.tscn</text>
+<text x="310.0" y="449.0" font-size="13" text-anchor="middle" fill="#5b6b7c">referenced at project.godot:18</text>
+<text x="310.0" y="466.0" font-size="13" text-anchor="middle" fill="#5b6b7c">file does not exist (S-02, Q-04)</text>
+<rect x="640" y="400" width="520" height="80" rx="10" fill="#fffdf7" stroke="#d24e42" stroke-width="2.5" stroke-dasharray="9 7"/>
+<text x="900.0" y="437.5" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">3DOF head tracking on a phone</text>
+<text x="900.0" y="457.5" font-size="13" text-anchor="middle" fill="#5b6b7c">no code of its own; device-unverified (M-03, Q-05)</text>
+<rect x="40" y="510" width="1120" height="70" rx="10" fill="#fffdf7" stroke="#d24e42" stroke-width="2.5" stroke-dasharray="9 7"/>
+<text x="600.0" y="542.5" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">goal / interaction</text>
+<text x="600.0" y="562.5" font-size="13" text-anchor="middle" fill="#5b6b7c">none in code: [MISSING] Q-01..Q-03</text>
+<rect x="32" y="625" width="34" height="16" rx="3" fill="#fffdf7" stroke="#25354a" stroke-width="2"/><text x="74" y="638" font-size="13" fill="#5b6b7c">solid = observed in code</text><rect x="260" y="625" width="34" height="16" rx="3" fill="#fffdf7" stroke="#d24e42" stroke-width="2" stroke-dasharray="6 5"/><text x="302" y="638" font-size="13" fill="#5b6b7c">dashed = proposed / missing / not in code (unapproved)</text>
+</g>
+</svg>
